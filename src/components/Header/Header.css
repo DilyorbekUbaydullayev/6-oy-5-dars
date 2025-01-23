@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #4F46E5;
+    --secondary-color: #6B7280;
+    --orange-color: #F97316;
+    --background-color: #F9FAFB;
+    --white: #FFFFFF;
+    
+  }
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4338CA;
+  }
+  
+  .btn-secondary {
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+    padding: 12px 24px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 1rem;
+  }

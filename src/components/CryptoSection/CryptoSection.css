@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #4F46E5;
+    --secondary-color: #6B7280;
+    --orange-color: #F97316;
+    --background-color: #ffffff;
+    --white: #FFFFFF;
+    
+  }
+ 
+  .crypto-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 4rem auto;
+    padding: 1rem 3rem;
+    background-color:#F8F9FD;
+    border-radius: 10px;
+  }
+  
+  .crypto-section h3 {
+    font-size: 2rem;
+    max-width: 500px;
+    color: black;
+  }

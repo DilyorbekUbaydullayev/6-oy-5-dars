@@ -1,0 +1,130 @@
+
+:root {
+    --primary-color: #4F46E5;
+    --secondary-color: #6B7280;
+    --orange-color: #F97316;
+    --background-color: #ffffff;
+    --white: #FFFFFF;
+    
+  }
+  
+ 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+  }
+  
+  .landing-page {
+    min-height: 100vh;
+  }
+  
+ 
+  .btn-primary1 {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 0px 24px;
+    height: 50px;
+    margin-top: 11px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4338CA;
+  }
+  
+  .btn-secondary {
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+    padding: 12px 24px;
+  }
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    max-width: var(--max-width);
+    margin: 4rem auto;
+    padding: 0 3rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: black;
+  }
+  
+  .hero-content p {
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn-play {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #4F46E5;
+  }
+  
+  .play-icon {
+    background-color: #4fd656;
+    color: var(--white);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .signup-card {
+    background: none;
+    padding: 2rem;
+    
+  }
+  .signup-card h3{
+    color: #4F46E5;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+  }
+  
+  .signup-form input {
+    padding: 12px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    background-color: #ffffff;
+
+  }
+  .btn-orange {
+    background-color: var(--orange-color);
+    color: var(--white);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500;
+  }
